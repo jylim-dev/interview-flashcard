@@ -1,0 +1,15 @@
+{
+  "1": { "q": "Tell me about your proudest project", "a": [] },
+  "2": {
+    "q": "Explain something interesting you’ve learned recently",
+    "a": [""],
+    "tags": ["amazon"]
+  },
+  "3": {
+    "q": "Describe a time that you simplified frontend architecture or process",
+    "a": [
+      "In my side project, the landing page displays user stats, triggering two API calls each time a user enters the page. Since we were using AWS Free Tier, which limits us to 1 million REST API calls per month, we needed a way to optimize API usage. To address this, I implemented a local cache, significantly reducing unnecessary requests. As a result, even with daily visitors reaching up to 500, we have successfully stayed within the Free Tier limits. Additionally, since the stats are now cached, they load instantly when users revisit the page, improving user experience. Currently, I am working on integrating Redis cache to optimize other stats, further reducing API dependency."
+    ],
+    "tags": ["frontend"]
+  }
+}
