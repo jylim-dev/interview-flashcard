@@ -1,8 +1,10 @@
+@import url("https://cdn.jsdelivr.net/gh/codex-src/iA-Fonts@master/iA%20Writer%20Quattro/Webfonts/index.css");
+@import "tailwindcss";
+
 :root {
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  font-family: "iA Writer Quattro", monospace;
 }
