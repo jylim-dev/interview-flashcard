@@ -2,7 +2,7 @@
   "1": { "q": "Tell me about your proudest project", "a": [] },
   "2": {
     "q": "Explain something interesting you’ve learned recently",
-    "a": [""],
+    "a": [],
     "tags": ["amazon"]
   },
   "3": {

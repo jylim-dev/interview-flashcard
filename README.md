@@ -8,6 +8,11 @@ for me
 - by category (hr, technical, algorithm, behavioral etc)
 - by tag
 
+### additional settings
+
+- time
+- number of questions
+
 ### data format
 
 ```json
